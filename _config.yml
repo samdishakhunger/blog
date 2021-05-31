@@ -4,9 +4,9 @@ title: "Samdisha's Personal Blog"
 description: "Live, Learn, Grow with me & my experiences."
 logo: 'assets/images/brand/logo.png'
 favicon: 'assets/images/brand/logo.ico'
-domain: 'http://127.0.0.1:4000'
+domain: 'https://samdisha.ml'
 baseurl: 
-google_analytics: 'UA-xxxxxxxx-1'
+google_analytics: 'G-7RF9WWNHHW'
 disqus: 'samdisha-me'
 # mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 include: ["_pages"]
