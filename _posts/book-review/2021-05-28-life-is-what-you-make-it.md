@@ -3,6 +3,7 @@ layout: post
 image: assets/images/book-reviews/life-is-what-you-make-it/thumbnail.jpg
 title:  "Life is what you make it - Book Review"
 description: "In this article, I present my personal views on the novel 'Life is what you make it by Preeti Shenoy'"
+excerpt: "In this article, I present my personal views on the novel 'Life is what you make it by Preeti Shenoy'"
 author: samdisha
 categories: [ Book Review, Life Lessons ]
 toc: enabled

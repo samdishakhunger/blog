@@ -4,7 +4,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+{% if page.description %}
+<meta name="description" content="{{page.description}}">
+
+{% elsif post.description %}
+<meta name="description" content="{{post.description}}">
+
+{% else %}
 <meta name="description" content="{{site.description}}">
+{% endif %}
 
 <!--Social-->
 <meta property="og:image" content="{{ site.domain }}/assets/images/brand/social-cover.png" />
@@ -33,8 +41,6 @@
 <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
 <script data-ad-client="{{site.adsense-data-ad-client}}" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
-</head>
-
 {% if jekyll.environment == 'production' %}
 <!-- change your GA id in _config.yml -->
 <script async src="https://www.googletagmanager.com/gtag/js?id={{site.google_analytics}}"></script>
@@ -46,6 +52,8 @@
   gtag('config', '{{site.google_analytics}}');
 </script>
 {% endif %}
+
+</head>
 
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
 <body>
