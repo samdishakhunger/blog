@@ -3,7 +3,7 @@ layout: post
 image: assets/images/motivation/all-you-have-to-fear-is-the-fear-itself/thumbnail.jpg
 title:  "All you have to fear is the fear itself"
 description: "In this article, Samdisha Khunger explains how brain preceives fear and makes preconceptions regarding it and how fear is just a product of our brain."
-excerpt: "In this article, Samdisha Khunger explains how brain preceives fear and makes preconceptions regarding it and how fear is just a product of our"
+excerpt: "In this article, Samdisha Khunger explains how brain preceives fear and makes preconceptions regarding it and how fear is just a product of our..."
 author: samdisha
 categories: [ Motivation ]
 ---
@@ -34,7 +34,7 @@ Guys, as we can see, that only by confronting our fears, our prejudices against 
 
 > ALL WE HAVE TO FEAR IS THE FEAR ITSELF
 
-This is very important friends. We need to understand the depth of this quote. It is not actually that we are afraid of water(for instance), but we have a preconception in our mind based on experiences of others.
+This is very important friends. We need to understand the depth of this quote. It is not actually that we are afraid of water(for instance), but we have a preconception in our mind based on your past experience or experiences of others.
 
 In this case we have thought in our mind that '*I am afraid of water*'. 
 
@@ -44,7 +44,7 @@ Here I am taking example of hydrophobia but it can be the fear of anything(as fe
 
 I just wanna remind you that it is not actually that you have some allergy from water or anything, it is just that you have fed it in your mind even without experiencing it in real life.
 
-Now even if you gather some courage and try swimming, your mind will again and again remind you that you are afraid of water and you will give in in to your fear.
+Now even if you gather some courage and try swimming, your mind will again and again remind you that you are afraid of water and you will give in to your fear.
 
 This happens with us oftenly.
 
