@@ -132,3 +132,5 @@ Friends, I am going to sum up this article by a quote -
 Thanks a lot for reading till the end! 
 
 Please post your comments whether you like this article or not. *I will appreciate them*.
+
+{% include ko-fi.html %}

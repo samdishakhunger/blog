@@ -101,6 +101,14 @@ Remember--
 <pre><center><b>Don't let your fear of what could 
 happen make nothing happen.</b></center></pre>
 
+Do check out the next part of this article:
+
+{% for post in site.posts %} 
+    {% if post.title == "How To Overcome Your Fears?" %}
+        {% include postpreview.html %}
+    {% endif %}
+{% endfor %}
+
 Thank you guys for reading till the end.
 
 Please leave your comments whether you like the article or not. *I will appreciate all your comments*!
