@@ -6,7 +6,7 @@ title:  "How To Overcome Your Fears?"
 description: "In this article, Samdisha Khunger explains how we can overcome our fears in any aspect of our life."
 excerpt: "In this article, Samdisha Khunger explains how we can overcome our fears in any aspect of our life."
 author: samdisha
-categories: [ Motivation ]
+categories: [ Motivation, Life Lessons ]
 ---
 
 Hi Guys!!!!!

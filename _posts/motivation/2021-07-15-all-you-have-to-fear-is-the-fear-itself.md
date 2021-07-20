@@ -5,7 +5,7 @@ title:  "All you have to fear is the fear itself"
 description: "In this article, Samdisha Khunger explains how brain preceives fear and makes preconceptions regarding it and how fear is just a product of our brain."
 excerpt: "In this article, Samdisha Khunger explains how brain preceives fear and makes preconceptions regarding it and how fear is just a product of our..."
 author: samdisha
-categories: [ Motivation ]
+categories: [ Motivation, Life Lessons ]
 ---
 
 Hii guys!!!!

@@ -5,7 +5,7 @@ title:  "The real cause behind our lack of motivation"
 description: "In this article, Samdisha Khunger explains The Escape Theory- which is the root cause behind our lack of motivation..."
 excerpt: "In this article, Samdisha Khunger explains The Escape Theory- which is the root cause behind our lack of motivation..."
 author: samdisha
-categories: [ Motivation ]
+categories: [ Motivation, Life Lessons ]
 ---
 
 Hi Guys! Welcome to my blog. A brief intro about me - I am Samdisha, currently a student of 12th standard.
