@@ -8,6 +8,26 @@ post_class: post-template
 <div class="entry-header">
     <!-- Post Title -->
     <h1 class="posttitle">{{ page.title }}</h1>
+    
+    <div>
+
+        {% unless page.categories == empty %}
+            <b>Categories:</b>
+        {% endunless %}
+
+        <!-- Categories -->
+        {% assign sortedCategories = page.categories | sort %}
+        {% for category in sortedCategories %}
+            <a class="smoothscroll badge badge-primary text-capitalize" href="{{site.baseurl}}/categories#{{ category | replace: " ","-" }}">{{ category }}</a>                
+        {% endfor %}
+
+        <!-- Tags -->  
+        {% assign sortedTags = page.tags | sort %}
+        {% for tag in sortedTags %}                
+                <a class="smoothscroll badge badge-primary text-capitalize" href="{{site.baseurl}}/tags#{{ tag | replace: " ","-" }}">{{ tag }}</a>               
+        {% endfor %}
+
+    </div>
 
     <!-- Rating -->
     {% if page.rating %}

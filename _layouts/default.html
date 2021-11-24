@@ -6,12 +6,15 @@
 <meta content="IE=Edge" http-equiv="X-UA-Compatible">
 {% if page.description %}
 <meta name="description" content="{{page.description}}">
+<meta name="twitter:description" content="{{page.description}}">
 
 {% elsif post.description %}
 <meta name="description" content="{{post.description}}">
+<meta name="twitter:description" content="{{post.description}}">
 
 {% else %}
 <meta name="description" content="{{site.description}}">
+<meta name="twitter:description" content="{{site.description}}">
 {% endif %}
 
 <!--Social-->
@@ -20,13 +23,12 @@
 <meta property="og:image:height" content="600" />
 <!--twitter-->
 <meta name="twitter:url" content="{{site.domain}}">
-<meta name="twitter:description" content="{{site.description}}">
 <meta name="twitter:image" content="{{ site.domain }}/assets/images/brand/social-cover.png" />
 
 <!-- iOS meta tags & icons -->
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
-<meta name="apple-mobile-web-app-title" content="Gourav Khunger | Android and Web developer | Blogger">
+<meta name="apple-mobile-web-app-title" content="Samdisha Khunger | Blogger">
 <link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/images/brand/logo.ico">
 
 <!-- Favicon -->
@@ -76,6 +78,7 @@
     <ul>
         <h3>Navigation</h3>
         <li><a href="{{ site.baseurl }}/">Home</a></li>
+        <li><a href="{{ site.baseurl }}/categories">Categories</a></li>
         <li><a href="{{ site.baseurl }}/about-samdisha">About Me</a></li>
         <li><a href="{{ site.baseurl }}/contact">Contact Me</a></li>
         <li><a href="{{ site.baseurl }}/privacy-policy">Privacy Policy</a></li>
