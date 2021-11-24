@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Me
-permalink: /about-samdisha
+permalink: /about
 comments: false
 ---
 
