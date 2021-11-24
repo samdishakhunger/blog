@@ -9,7 +9,6 @@ categories: [ Quotes ]
 ---
 
 <center>
-
 How messy at times life can be,<br>
 Just like these dry branches of the tree,<br>
 But always surrounded by cheerful birds,<br>

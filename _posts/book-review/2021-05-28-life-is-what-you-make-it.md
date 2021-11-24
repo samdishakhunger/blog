@@ -230,5 +230,3 @@ This is my first ever post. Please leave your views on this article liked
 it or even if you did not like it. *I will appreciate all your comments*. 
 
 Thank you!
-
-{% include ko-fi.html %}

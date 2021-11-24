@@ -78,5 +78,3 @@ Do share your ideas on this topic in comments.
 *I will appreciate all your comments.*
 
 Thank you for reading this far!
-
-{% include ko-fi.html %}

@@ -112,5 +112,3 @@ Do check out the next part of this article:
 Thank you guys for reading till the end.
 
 Please leave your comments whether you like the article or not. *I will appreciate all your comments*!
-
-{% include ko-fi.html %}
