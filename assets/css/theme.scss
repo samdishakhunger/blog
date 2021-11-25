@@ -278,6 +278,10 @@ img, img:hover {
             background-repeat: no-repeat;
             background-size: 0 100%;
             transition: background-size .6s ease;
+            -webkit-transition: background-size .6s ease;
+            -moz-transition: background-size .6s ease;
+            -ms-transition: background-size .6s ease;
+            -o-transition: background-size .6s ease;
             position:relative;
             &:hover {
                 text-decoration:none;
@@ -487,6 +491,10 @@ img, img:hover {
     color: transparent;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     transition: all .4s;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -ms-transition: all .4s;
+    -o-transition: all .4s;
     cursor: pointer;
     position: relative;
     &:after {
@@ -507,6 +515,10 @@ img, img:hover {
         text-align: center;
         border-radius: 3px;
         transition: all .4s;
+        -webkit-transition: all .4s;
+        -moz-transition: all .4s;
+        -ms-transition: all .4s;
+        -o-transition: all .4s;
     }
     &:hover:after {
         opacity: 1;
@@ -566,7 +578,11 @@ img, img:hover {
     &.search--show {
         visibility: visible;
         opacity: 1;
-        transition:opacity 0.5s linear;
+        transition: opacity 0.5s linear;
+        -webkit-transition: opacity 0.5s linear;
+        -moz-transition: opacity 0.5s linear;
+        -ms-transition: opacity 0.5s linear;
+        -o-transition: opacity 0.5s linear;
     }
 }
 .wrap-search {

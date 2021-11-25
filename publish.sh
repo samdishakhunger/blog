@@ -1,5 +1,8 @@
 #!/bin/sh
 
+rm -rf category
+rm -rf _site
+
 bundle exec jekyll build
 
 cp -r _site/category .
