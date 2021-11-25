@@ -41,7 +41,7 @@ jekyll-archives:
     - categories
   layout: archive
   permalinks:
-    category: '/category/:name'
+    category: '/category/:name.html'
     
 # Pagination 
 paginate: 6
