@@ -4,19 +4,9 @@ layout: default
 permalink: "/categories"
 ---
 
-
+<p class="sitetag">
+    Select a category to read posts.
+</p>
 {% for category in site.categories %}
-<a href="{{site.baseurl}}/category/{{ category[0] | replace: " ","-" | downcase }}"><h4 class="mt-5 mb-neg-30" id="{{ category[0] | replace: " ","-" | downcase }}"><span class="text-capitalize badge badge-primary text-small">{{ category[0] }}</span></h4></a>
-<div class="blog-grid-container">
-{% assign pages_list = category[1] %}
-{% for post in pages_list %}
-{% if post.title != null %}
-{% if group == null or group == post.group %}
-{% include postbox.html %}
-{% endif %}
-{% endif %}
-{% endfor %}
-{% assign pages_list = nil %}
-{% assign group = nil %}
-</div>
+<a href="{{site.baseurl}}/category/{{ category[0] | replace: " ","-" | downcase }}"><h4 class="mt-5" id="{{ category[0] | replace: " ","-" | downcase }}"><span class="text-capitalize badge badge-primary text-small">{{ category[0] }}</span></h4></a>
 {% endfor %}
