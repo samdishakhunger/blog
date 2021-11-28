@@ -3,7 +3,7 @@ rmdir /q category
 del /f /s /q _site 1>nul
 rmdir /q _site
 
-START /wait bundle exec jekyll build
+echo n | START /wait bundle exec jekyll build
 
 echo D | xcopy "_site/category" "category"
 
