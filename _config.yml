@@ -72,4 +72,4 @@ sass:
   sass_dir: _sass
   style: compressed
 
-exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
+exclude: [Gemfile, Gemfile.lock, CNAME, docker-compose.yml, run.sh, run.bat, publish.sh, publish.bat]
