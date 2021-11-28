@@ -1,17 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+
 {% if page.description %}
 <meta name="description" content="{{page.description}}">
 <meta name="twitter:description" content="{{page.description}}">
-
-{% elsif post.description %}
-<meta name="description" content="{{post.description}}">
-<meta name="twitter:description" content="{{post.description}}">
-
 {% else %}
 <meta name="description" content="{{site.description}}">
 <meta name="twitter:description" content="{{site.description}}">
@@ -21,13 +18,20 @@
 <meta property="og:image" content="{{ site.domain }}/assets/images/brand/social-cover.png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="600" />
-<!--twitter-->
-<meta name="twitter:url" content="{{site.domain}}">
-<meta name="twitter:image" content="{{ site.domain }}/assets/images/brand/social-cover.png" />
 
-<!-- iOS meta tags & icons -->
+<!--twitter-->
+<meta name="twitter:url" content="{{ site.domain }}{{ page.url }}">
+{% if page.image %}
+<meta name="twitter:image" content="{{ site.domain }}/{{ page.image }}" />
+{% else %}
+<meta name="twitter:image" content="{{ site.domain }}/assets/images/brand/social-cover.png" />
+{% endif %}
+
+<!-- theme color & icons -->
+<meta name="theme-color" content="#f4f4f4">
+<meta name="msapplication-navbutton-color" content="#f4f4f4">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f4f4f4">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black">
 <meta name="apple-mobile-web-app-title" content="Samdisha Khunger | Blogger">
 <link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/images/brand/logo.ico">
 
@@ -144,7 +148,7 @@
                 Copyright © {{ site.time | date: "%Y" }} {{ site.name }} 
             </div>
             <div class="col-md-6 col-sm-12 text-center text-lg-right">    
-                Check out my <a target="_blank" href="{{ site.instagram }}">Instagram account</a>!
+                Check out my <a target="_blank" href="{{ site.instagram }}" rel="noreferrer noopener nofollow">Instagram account</a>!
             </div>
         </div>
     </div>
