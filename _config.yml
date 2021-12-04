@@ -72,5 +72,4 @@ sass:
   sass_dir: _sass
   style: compressed
 
-include: [".github/workflows/minify.yml"]
 exclude: [Gemfile, Gemfile.lock, run.sh, run.bat, publish.sh, publish.bat]
