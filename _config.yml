@@ -73,3 +73,4 @@ sass:
   style: compressed
 
 exclude: [Gemfile, Gemfile.lock, run.sh, run.bat, publish.sh, publish.bat]
+keep_files: [.github]

@@ -12,7 +12,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu-20.04]
+        os: [ubuntu-latest]
     env:
       prepo: ${{github.repository}}
     steps:
@@ -29,8 +29,8 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         directory: github/workspace
-        branch: minified
-        message: Minified css, js and html
+        branch: gh-pages
+        message: Minified site
         author_name: MinifyAction[bot]
         author_email: amireshoon-minifyAction@users.noreply.github.com
         force: true
