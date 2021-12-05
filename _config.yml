@@ -12,7 +12,7 @@ include: ["_pages"]
 permalink: /:title
 email: khunger.samdisha@gmail.com
 instagram: https://instagram.com/samdisha_khunger/
-staticman_url: https://comments.samdisha.me/v3/entry/github/samdishakhunger/blog/main/comments
+staticman_url: https://comments.samdisha.me/v2/entry/samdishakhunger/blog/main/comments
 
 # Authors
 authors:
