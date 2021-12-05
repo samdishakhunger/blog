@@ -1,0 +1,45 @@
+{% assign author = site.authors[page.author] %}
+{%- capture article_class %}comment{% if include.is_reply %} child{% endif %}{% endcapture %}
+{% assign comment_id = include.id | prepend: 'comment-' %}
+<article id="{{ comment_id }}" class="{{ article_class }} my-2">
+
+  <div class="container">
+    <div class="row align-items-center">
+      <div>
+      {% if include.name == author.name %}
+        <img class="comment-author-thumb rounded-circle" src="{{site.baseurl}}/{{ author.avatar }}" alt="{{ author.display_name }}" width="50px"  height="50px">
+      {% else %}
+        <img class="rounded-circle" src="https://joeschmoe.io/api/v1/{{ include.name }}" width="48px" height="48px">
+      {% endif %}
+      </div>
+      <div class="col">
+        <h5 class="comment-author-name">{{- include.name | strip_html }}</h5>
+        <a rel="nofollow" href="#{{ comment_id }}" title="Permalink to this comment">
+          {{- include.date | date:"%B %e, %Y" -}}
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="comment-body">
+    {{ include.message | strip_html | markdownify }}
+  </div>
+
+{% if include.is_reply %}
+</article>
+{% else %}
+  <a rel="nofollow" class="reply-link badge badge-primary" onclick="return addComment.moveForm('{{ comment_id }}', 'respond', '{{ include.id }}')">Reply</a>
+</article>
+
+  {%- capture this_id %}{{ include.id }}{% endcapture %}
+  {%- assign replies = site.data.comments[page.slug] | where_exp: "item", "item.replying_to_id == this_id" %}
+  {%- assign replies_date = replies | sort: 'date' %}
+  {% for reply in replies_date %}
+    {%- assign name        = reply.name -%}
+    {%- assign date        = reply.date -%}
+    {%- assign message     = reply.message -%}
+    {%- assign id          = reply._id -%}
+    {% include comment.html is_reply=true id=id name=name date=date message=message %}
+  {% endfor %}
+<hr>
+{% endif %}

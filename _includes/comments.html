@@ -1,12 +1,29 @@
 <!-- Comments
 ================================================== -->
-{% if page.comments != false %} 
-<div class="comments mt-5">
-    <button class="btn btn-outline-dark py-2 px-5 d-block w-100 show-comments"><i class="fa fa-comments text-muted"></i> &nbsp; Load Comments</button>         
-    <div id="comments">  
-        <h4 class="mb-4">Comments</h4>                 
-            {% include disqus.html %}     
-    <div class="clearfix"></div>              
-    </div>    
-</div>       
+{% if page.comments != false %}
+<div class="comments">
+    <h3>Comments</h3>
+    {% if site.data.comments[page.slug] %}
+        {% assign comments = site.data.comments[page.slug] | where_exp: "item", "item.replying_to_id == ''" %}
+        {% assign comments_by_date = comments | sort: 'date' | reverse %}
+
+        <div class="mt-5 mb-5">
+            {% for comment in comments_by_date %}
+                {%- assign id              = comment._id %}
+                {%- assign name            = comment.name %}
+                {%- assign date            = comment.date %}
+                {%- assign message         = comment.message %}
+                {% include comment.html is_reply=false id=id replying_to=0 name=name date=date message=message  %}
+            {% endfor %}
+        </div>
+    {% else %}
+        <p class="my-5 col text-center">No existing comments found, start the discussion below!</p>
+    {% endif %}
+</div>
+
+<div id="respond">
+    {% include comment-form.html %}
+</div>
+
+<script src="{{site.baseurl}}/assets/js/comment.js"></script>
 {% endif %}
