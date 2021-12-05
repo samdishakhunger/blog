@@ -1,5 +1,5 @@
 comments:
-  branch: test
+  branch: main
   moderation: true
 
   commitMessage: "Add comment from {fields.name}"
