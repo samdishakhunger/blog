@@ -8,6 +8,7 @@ comments:
   name: "Samdisha's Personal Blog"
   allowedOrigins: ["samdisha.me", "comments.samdisha.me"]
 
+  format: "yml"
   filename: "entry-{@timestamp}"
   path: "_data/comments/{options.slug}"
 
