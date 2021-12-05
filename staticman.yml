@@ -6,7 +6,7 @@ comments:
   pullRequestBody: "New comment!"
 
   name: "Samdisha's Personal Blog"
-  allowedOrigins: ["samdisha.me"]
+  allowedOrigins: ["samdisha.me", "comments.samdisha.me"]
 
   filename: "{@id}"
   path: "_data/comments/{options.slug}"
