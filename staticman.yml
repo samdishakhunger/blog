@@ -8,7 +8,7 @@ comments:
   name: "Samdisha's Personal Blog"
   allowedOrigins: ["samdisha.me", "comments.samdisha.me"]
 
-  filename: "{@id}"
+  filename: "entry-{@timestamp}"
   path: "_data/comments/{options.slug}"
 
   allowedFields: ["name", "message", "replying_to_id"]
