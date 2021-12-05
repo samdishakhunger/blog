@@ -15,7 +15,7 @@ var addComment = function() {
 
   var submitButton = select(".submit-form");
 
-  var form = select(".comment-form");
+  var form = select(".actual-form");
   form.doReset = function() {
     submitButton.innerHTML = "Submit";
     this.classList.remove("disabled");
@@ -44,8 +44,6 @@ var addComment = function() {
       function (data) {
         if (data.ok) {
           showModal("Comment submitted", "Thanks for the comment! Your comment is awaiting approval. It will appear when approved :)");
-          form.reset();
-          form.doReset();
         } else {
           data.json().then(function(err) {
             errorHandler("Server Error", err);
@@ -59,16 +57,20 @@ var addComment = function() {
 
   });
 
-  select("#btnx").addEventListener("click", function () {
-    $("#modal").hide(5);
-    $( "body" ).removeClass("modal-open" );
-  });
-
   function showModal(title, message) {
     $("#modal").show(400);
     $("body").addClass("modal-open");
     document.getElementById("modtit").innerHTML = `<h5 class="modal-title">${title}</h5>`;
     document.querySelectorAll("#modal p")[0].innerHTML = message;
+
+    select("#btnx").addEventListener("click", function () {
+      $("#modal").hide(5);
+      $( "body" ).removeClass("modal-open" );
+      submitButton.innerHTML ="Submit";
+      submitButton.classList.remove("disabled");
+      form.reset();
+      form.doReset();
+    });
   }
 
   // Staticman comment replies, from https://github.com/mmistakes/made-mistakes-jekyll
