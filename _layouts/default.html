@@ -109,7 +109,7 @@
             {{ site.description }}
         </p>
     {% endif %}
-    {% if site.adsense == "enabled" and page.layout != "post" and page.layout != "page" %}
+    {% if site.adsense == "enabled" and page.layout == "default" and page.url != '/404'  %}
             {% include infeed-ad.html %}
     {% endif %}
     <!-- Content
