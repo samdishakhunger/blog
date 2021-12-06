@@ -7,6 +7,15 @@ permalink: "/categories"
 <p class="sitetag">
     Select a category to read posts.
 </p>
+
+{% if site.adsense == "enabled" %}
+    {% include infeed-ad.html %}
+{% endif %}
+
 {% for category in site.categories %}
-<a href="{{site.baseurl}}/category/{{ category[0] | replace: " ","-" | downcase }}"><h4 class="mt-5" id="{{ category[0] | replace: " ","-" | downcase }}"><span class="text-capitalize badge badge-primary text-small">{{ category[0] }}</span></h4></a>
+<a href="{{site.baseurl}}/category/{{ category[0] | replace: " ","-" | downcase }}"><h4 class="mt-4 d-flex justify-content-center" id="{{ category[0] | replace: " ","-" | downcase }}"><span class="text-capitalize badge badge-primary text-small">{{ category[0] }}</span></h4></a>
 {% endfor %}
+
+{% if site.adsense == "enabled" %}
+    {% include infeed-ad.html %}
+{% endif %}

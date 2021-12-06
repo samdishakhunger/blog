@@ -58,13 +58,13 @@ post_class: post-template
     {% endif %}
 </div>
 
-<!-- Adsense under title if enabled from _config.yml (change your pub id and slot) -->
-{% if site.adsense == "enabled" %}
-    {% include adsense-under-header.html %}
-{% endif %}
-
 <!-- Featured Image -->
 {% include featured-image.html %}
+
+<!-- Adsense under title if enabled from _config.yml (change your pub id and slot) -->
+{% if site.adsense == "enabled" %}
+    {% include display-ad.html %}
+{% endif %}
 
 <!-- Content -->
 {% include article.html %}
@@ -78,8 +78,16 @@ post_class: post-template
 <!-- Share -->
 {% include share.html %}
 
+{% if site.adsense == "enabled" %}
+    {% include display-ad.html %}
+{% endif %}
+
 <!-- Comments if not disabled with comments: false -->
 {% include comments.html %}
+
+{% if site.adsense == "enabled" %}
+    {% include infeed-ad.html %}
+{% endif %}
 
 <!-- Related Post -->
 {% include related-posts.html %}

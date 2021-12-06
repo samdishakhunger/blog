@@ -53,7 +53,7 @@
 </script>
 
 <!-- Adsense -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8114751086331659"
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ site.adsense-data-ad-client }}"
      crossorigin="anonymous"></script>
 {% endif %}
 </head>
@@ -88,7 +88,6 @@
 
 {% include search-lunr.html %}
 
-
 <!-- End Sidebar Navigation
 ================================================== -->
 
@@ -101,8 +100,7 @@
    
     <a  height="200px" width="200px" class="navbar-brand" href="{{ site.baseurl }}/">
         <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
-    </a>  
-   
+    </a>
 
     <!-- Site Tag
     ================================================== -->

@@ -24,7 +24,7 @@ var addComment = function() {
   form.addEventListener("submit", function (event) {
     event.preventDefault();
 
-    submitButton.innerHTML ="Sending...";
+    submitButton.innerHTML ="Posting...";
     submitButton.classList.add("disabled");
 
     var errorHandler = function(title, err) {
@@ -43,7 +43,7 @@ var addComment = function() {
     }).then(
       function (data) {
         if (data.ok) {
-          showModal("Comment submitted", "Thanks for the comment! Your comment is awaiting approval. It will appear when approved :)");
+          showModal("Comment submitted!", "Your comment is awaiting approval. It will appear when approved :)");
         } else {
           data.json().then(function(err) {
             errorHandler("Server Error", err);
@@ -82,15 +82,15 @@ var addComment = function() {
 
     // commId - the id attribute of the comment replied to (e.g., "comment-10")
     // respondId - the string "respond", I guess
-    // parentUid - the UID of the parent comment
-    moveForm: function(commId, respondId, parentUid) {
+    // parentId - the UID of the parent comment
+    moveForm: function(commId, respondId, parentId) {
       var t           = this;
       var comm        = I( commId );                                // whole comment
       var respond     = I( respondId );                             // whole new comment form
       var cancel      = I( "cancel-reply-btn" );           // whole reply cancel link
-      var parentuidF  = I( "replying-to-id" );             // a hidden element in the comment
+      var parentIdF  = I( "replying-to-id" );             // a hidden element in the comment
 
-      if ( ! comm || ! respond || ! cancel || ! parentuidF ) {
+      if ( ! comm || ! respond || ! cancel || ! parentIdF ) {
         return;
       }
 
@@ -104,8 +104,8 @@ var addComment = function() {
       }
 
       comm.parentNode.insertBefore( respond, comm.nextSibling );  // move the form from the bottom to above the next sibling
-      parentuidF.value = parentUid;
-      I("form-title").innerHTML = "Add a reply"
+      parentIdF.value = parentId;
+      I("form-title").innerHTML = "Add a reply";
       cancel.style.display = "";                        // make the cancel link visible
 
       cancel.onclick = function() {
@@ -116,7 +116,7 @@ var addComment = function() {
           return;
         }
 
-        I("form-title").innerHTML = "Add a comment"
+        I("form-title").innerHTML = "Add a comment";
         I("replying-to-id").value = null;
         temp.parentNode.insertBefore(respond, temp);  // move the comment form to its original location
         temp.parentNode.removeChild(temp);            // remove the bookmark div

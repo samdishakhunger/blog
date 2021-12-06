@@ -19,3 +19,6 @@ title: Home
 </span>
 </div>
 
+{% if site.adsense == "enabled" %}
+    {% include infeed-ad.html %}
+{% endif %}

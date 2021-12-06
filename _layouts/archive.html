@@ -8,6 +8,10 @@ title: Archive
 
 <h1>Archive of posts with <span>{{ page.type }} '{{ page.title }}'</span></h1>
 
+{% if site.adsense == "enabled" %}
+    {% include infeed-ad.html %}
+{% endif %}
+
 <div class="blog-grid-container">
 
 {% for post in page.posts %}
@@ -17,3 +21,7 @@ title: Archive
 {% endfor %}
 
 </div>
+
+{% if site.adsense == "enabled" %}
+    {% include infeed-ad.html %}
+{% endif %}

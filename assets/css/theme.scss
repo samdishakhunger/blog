@@ -636,13 +636,19 @@ body.active-side {
     background-color: white;
     padding: 1.25rem;
 
-    .comment-body {
-        margin: 1.5rem 0rem 1.5rem 0rem;
+    .comment-body, .comment-meta {
+        margin: 1rem 0rem 1rem 1rem;
     }
 
     .reply-link {
         padding: 5px;
         font-weight: normal;
+        margin-left: 1rem;
+    }
+
+    .container {
+        padding-left: 0px;
+        margin-left: 0px;
     }
 }
 
