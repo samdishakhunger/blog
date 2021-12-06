@@ -542,6 +542,16 @@ img, img:hover {
     }
 }
 
+.comment {
+    .container {
+        .row {
+            .col {
+                line-height: 0.5;
+            }
+        }
+    }
+}
+
 //share
 .share { 
     position:fixed;left:15px;bottom:40%;z-index: 1026;
@@ -729,6 +739,25 @@ body.active-side {
         }
         .mc-field-group input[type="submit"] {
             padding: 4px 10px;
+        }
+    }
+}
+@media (max-width: 500px) {
+    .comment {
+        .container {
+            .row {
+                flex-direction: column;
+                .col {
+                    &::before {
+                        content: "\00000a";
+                        white-space: pre;
+                    }
+                    padding: 0px;
+
+                    line-height: 0.5;
+                    margin-bottom: 1rem;
+                }
+            }
         }
     }
 }
