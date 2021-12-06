@@ -15,13 +15,13 @@
 {% endif %}
 
 <!--twitter-->
-<meta name="twitter:url" content="{{ site.domain }}{{ page.url }}">
+<meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
 {% if page.image %}
-<meta name="twitter:image" content="{{ site.domain }}/{{ page.image }}" />
-<meta property="og:image" content="{{ site.domain }}/{{ page.image }}" />
+<meta name="twitter:image" content="{{ site.url }}/{{ page.image }}" />
+<meta property="og:image" content="{{ site.url }}/{{ page.image }}" />
 {% else %}
-<meta property="og:image" content="{{ site.domain }}/assets/images/brand/social-cover.png" />
-<meta name="twitter:image" content="{{ site.domain }}/assets/images/brand/social-cover.png" />
+<meta property="og:image" content="{{ site.url }}/assets/images/brand/social-cover.png" />
+<meta name="twitter:image" content="{{ site.url }}/assets/images/brand/social-cover.png" />
 {% endif %}
 
 <!-- theme color & icons -->

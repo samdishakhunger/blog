@@ -2,12 +2,12 @@
 name: "Samdisha's Personal Blog"
 title: "Samdisha's Personal Blog"
 description: "Live, Learn, Grow with me & my experiences."
-logo: 'assets/images/brand/logo.png'
-favicon: 'assets/images/brand/logo.ico'
-domain: 'https://samdisha.me'
-baseurl: ''
-google_analytics: 'G-DLH9VBNNPV'
-# mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+logo: "assets/images/brand/logo.png"
+favicon: "assets/images/brand/logo.ico"
+url: "https://samdisha.me"
+baseurl: ""
+google_analytics: "G-DLH9VBNNPV"
+# mailchimp-list: "https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b"
 include: ["_pages"]
 permalink: /:title
 email: khunger.samdisha@gmail.com
@@ -19,7 +19,7 @@ authors:
   samdisha:
     name: Samdisha
     display_name: Samdisha
-    avatar: 'assets/images/brand/avatar-samdisha.png'
+    avatar: "assets/images/brand/avatar-samdisha.png"
     email: khunger.samdisha@gmail.com
     web: https://ko-fi.com/samdishakhunger
     instagram: https://instagram.com/samdisha_khunger/
@@ -41,11 +41,11 @@ jekyll-archives:
     - categories
   layout: archive
   permalinks:
-    category: '/category/:name.html'
+    category: "/category/:name.html"
     
 # Pagination 
 paginate: 6
-paginate_path: '/page/:num'
+paginate_path: "/page/:num"
     
 # Other
 highlighter: rouge
