@@ -108,6 +108,9 @@
         <p class="sitetag">
             {{ site.description }}
         </p>
+        {% if site.adsense == "enabled" %}
+            {% include infeed-ad.html %}
+        {% endif %}
     {% endif %}
 
     <!-- Content
