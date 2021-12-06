@@ -109,11 +109,9 @@
             {{ site.description }}
         </p>
     {% endif %}
-
-    {% if site.adsense == "enabled" %}
-        {% include infeed-ad.html %}
+    {% if site.adsense == "enabled" and page.layout != "post" and page.layout != "page" %}
+            {% include infeed-ad.html %}
     {% endif %}
-
     <!-- Content
     ================================================== -->
     <div class="main-content">
