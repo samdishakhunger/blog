@@ -3,7 +3,7 @@ layout: post
 image: assets/images/quotes/nerves_consoling.jpg
 title:  ""
 description: "Quotes by Samdisha. Random Thoughts and Quotes on life by Samdisha Khunger."
-excerpt: "Delve in your mind and you'll know."
+excerpt: "Getting on your own nerves to, crying your heart out to, consoling yourself to, again disappointing yourself."
 author: samdisha
 categories: [ Quotes ]
 ---
