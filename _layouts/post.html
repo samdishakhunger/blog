@@ -9,6 +9,8 @@ post_class: post-template
     <!-- Post Title -->
     <h1 class="posttitle">{{ page.title }}</h1>
     
+    <br/>
+
     <div>
 
         {% unless page.categories == empty %}
@@ -27,6 +29,13 @@ post_class: post-template
                 <a class="smoothscroll badge badge-primary text-capitalize" href="{{site.baseurl}}/tags#{{ tag | replace: " ","-" }}">{{ tag }}</a>               
         {% endfor %}
 
+    </div>
+
+    <div>
+        {% capture words %}
+            {{ page.content | number_of_words }}
+        {% endcapture %}
+        <b>Word count: {{ words }}</b>
     </div>
 
     <!-- Rating -->
