@@ -1,6 +1,6 @@
 ---
 layout: post
-image: assets/images/motivation/all-you-have-to-fear-is-the-fear-itself/thumbnail.jpg
+image: https://user-images.githubusercontent.com/46792249/145677178-c9658320-f1ee-4c3e-b6da-e4e5f2f508ab.jpg
 title:  "All you have to fear is the fear itself"
 description: "In this article, Samdisha Khunger explains how brain preceives fear and makes preconceptions regarding it and how fear is just a product of our brain."
 excerpt: "In this article, Samdisha Khunger explains how brain preceives fear and makes preconceptions regarding it and how fear is just a product of our..."

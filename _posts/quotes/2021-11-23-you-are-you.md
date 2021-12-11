@@ -1,6 +1,6 @@
 ---
 layout: post
-image: assets/images/quotes/you_are_you.jpg
+image: https://user-images.githubusercontent.com/46792249/145677446-ab1eaa88-d98e-4d2a-aa53-54ed6b464050.png
 title:  ""
 description: "Quotes by Samdisha. Random Thoughts and Quotes on life by Samdisha Khunger."
 excerpt: "You are just you, no need to prove anything!"
