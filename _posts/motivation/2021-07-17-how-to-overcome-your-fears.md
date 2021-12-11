@@ -1,6 +1,6 @@
 ---
 layout: post
-image: https://user-images.githubusercontent.com/84928666/145666711-4c498aa8-de1a-460a-8561-f4233ac172c0.png
+image: https://user-images.githubusercontent.com/46792249/145677117-97736128-5e39-42ab-824a-fc58997a4cb0.jpg
 toc: enabled
 title:  "How To Overcome Your Fears?"
 description: "In this article, Samdisha Khunger explains how we can overcome our fears in any aspect of our life."

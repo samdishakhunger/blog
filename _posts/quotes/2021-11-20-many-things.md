@@ -1,6 +1,6 @@
 ---
 layout: post
-image: https://user-images.githubusercontent.com/84928666/145666632-5901fd45-76ac-4b12-81fc-d9994cc3d460.png
+image: https://user-images.githubusercontent.com/46792249/145677301-c235afd6-4f21-44eb-b9c4-63518ee27bbf.png
 title:  ""
 description: "Quotes by Samdisha. Random Thoughts and Quotes on life by Samdisha Khunger."
 excerpt: "Many things in life we do to get that momentary happiness and life long guilt!"

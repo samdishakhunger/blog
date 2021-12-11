@@ -1,6 +1,6 @@
 ---
 layout: post
-image: assets/images/book-reviews/life-is-what-you-make-it/thumbnail.jpg
+image: https://user-images.githubusercontent.com/46792249/145677064-e724e641-c908-4670-9b40-f0e32abb3b44.jpg
 title:  "Life is what you make it - Book Review"
 description: "In this article, I present my personal views on the novel 'Life is what you make it by Preeti Shenoy'"
 excerpt: "In this article, I present my personal views on the novel 'Life is what you make it by Preeti Shenoy'"

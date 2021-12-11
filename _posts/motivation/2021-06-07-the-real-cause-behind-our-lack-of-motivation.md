@@ -1,6 +1,6 @@
 ---
 layout: post
-image: assets/images/motivation/the-real-cause-behind-our-lack-of-motivation/thumbnail.jpg
+image: https://user-images.githubusercontent.com/46792249/145677260-e3fe3fc1-8a9b-462f-8217-a3fcc46e55b4.jpg
 title:  "The real cause behind our lack of motivation"
 description: "In this article, Samdisha Khunger explains The Escape Theory- which is the root cause behind our lack of motivation..."
 excerpt: "In this article, Samdisha Khunger explains The Escape Theory- which is the root cause behind our lack of motivation..."

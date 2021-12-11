@@ -1,6 +1,6 @@
 ---
 layout: post
-image: https://user-images.githubusercontent.com/84928666/145665303-665e6f36-3813-4b00-bd76-3a0f0a688785.png
+image: https://user-images.githubusercontent.com/46792249/145677572-54cb8760-e27f-4daf-b1fa-4a2b94b7c5c0.png
 title:  ""
 description: "Quotes by Samdisha. Random Thoughts and Quotes on life by Samdisha Khunger."
 excerpt: "Delve in your mind and you'll know."

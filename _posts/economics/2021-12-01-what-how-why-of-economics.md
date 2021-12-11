@@ -1,6 +1,6 @@
 ---
 layout: post
-image: assets/images/economics/what-how-why-of-economics.png
+image: https://user-images.githubusercontent.com/46792249/145676807-69681bca-51a1-4cb7-b73d-2c7d5a7a8d72.png
 title:  "What-How-Why of Economics"
 description: "This article explains the basics of economics: what is economics, its history, how should we approach it and its importance."
 excerpt: "This article explains the basics of economics: what is economics, its history, how should we approach it and its importance."
