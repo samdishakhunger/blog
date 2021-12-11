@@ -16,14 +16,14 @@
             </a>
         </div>
         <div class="card-body">
-            <p class="card-title">
+            <div class="card-title">
                 <a class="text-dark" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
                 {% if post.rating %}
                 <div class="mb-2 mt-2 font-weight-normal">
                 {% include star_rating_postbox.html %}
                 </div>
                 {% endif %}
-            </p>
+            </div>
             <p class="h4 card-text">{{ post.excerpt | strip_html | truncatewords:30 }}</p>
         </div>
     </div>
