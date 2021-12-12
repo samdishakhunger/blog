@@ -646,22 +646,33 @@ body.active-side {
 
 .comment {
     background-color: white;
-    padding: 1.25rem;
+    padding: 0.5rem;
 
-    .comment-body, .comment-meta {
-        margin: 1rem 0rem 1rem 1rem;
+    .comment-meta {
+        margin: 0.75rem 0.75rem 0rem 0.75rem;
+    }
+    
+    .comment-body {
+        margin: 0rem 0.75rem 0.75rem 0.75rem;
+        p {
+            margin-bottom: 0rem;
+        }
     }
 
     .reply-link {
         padding: 5px;
         font-weight: normal;
-        margin-left: 1rem;
-        margin-bottom: 0.5rem;
+        margin-left: 0.75rem;
+        margin-bottom: 0.75rem;
     }
 
     .container {
+        width: 100%;
+        max-width: 100%;
         padding-left: 0px;
+        padding-right: 0px;
         margin-left: 0px;
+        margin-right: 0px;
     }
 }
 
@@ -760,6 +771,18 @@ body.active-side {
                     line-height: 0.5;
                     margin-bottom: 1rem;
                 }
+            }
+        }
+    }
+}
+@media (min-width: 500px) {
+    .comment {
+        .container {
+            .comment-meta {
+                margin: 0.75rem 0.75rem 1rem 0.75rem;
+            }
+            .comment-body {
+                margin: 0.75rem 0.75rem 0.5rem 0.75rem;
             }
         }
     }
