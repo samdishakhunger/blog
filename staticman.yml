@@ -3,7 +3,6 @@ comments:
   moderation: true
 
   commitMessage: "Add comment from {fields.name}"
-  pullRequestBody: "New comment!"
 
   name: "Samdisha's Personal Blog"
   allowedOrigins: ["samdisha.me", "comments.samdisha.me"]
