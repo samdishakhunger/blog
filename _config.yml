@@ -28,7 +28,6 @@ authors:
 
 # Plugins
 plugins:
-  - jekyll-minifier
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
@@ -71,8 +70,5 @@ authorbox: "enabled"
 sass:
   sass_dir: _sass
   style: compressed
-
-jekyll-minifier:
-  exclude: ["assets/css/theme.css"]
 
 exclude: [Gemfile, Gemfile.lock, run.sh, run.bat, publish.sh, publish.bat]
