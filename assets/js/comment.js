@@ -60,7 +60,7 @@ var addComment = function() {
   function showModal(title, message) {
     $("#modal").show(400);
     $("body").addClass("modal-open");
-    document.getElementById("modtit").innerHTML = `<h5 class="modal-title">${title}</h5>`;
+    document.getElementById("modtit").innerHTML = "<h5 class=\"modal-title\">" + title + "</h5>";
     document.querySelectorAll("#modal p")[0].innerHTML = message;
 
     select("#btnx").addEventListener("click", function () {
