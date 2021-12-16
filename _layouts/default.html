@@ -17,8 +17,8 @@
 <!--twitter-->
 <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
 {% if page.image %}
-<meta name="twitter:image" content="{{ site.url }}/{{ page.image }}" />
-<meta property="og:image" content="{{ site.url }}/{{ page.image }}" />
+<meta name="twitter:image" content="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.url }}/{{ page.image }}{% endif %}" />
+<meta property="og:image" content="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.url }}/{{ page.image }}{% endif %}" />
 {% else %}
 <meta property="og:image" content="{{ site.url }}/assets/images/brand/social-cover.png" />
 <meta name="twitter:image" content="{{ site.url }}/assets/images/brand/social-cover.png" />
