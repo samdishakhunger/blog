@@ -8,7 +8,7 @@ url: "https://samdisha.me"
 baseurl: ""
 google_analytics: "G-DLH9VBNNPV"
 # mailchimp-list: "https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b"
-include: ["_pages"]
+include: ["_pages", ".nojekyll"]
 permalink: /:title
 email: khunger.samdisha@gmail.com
 instagram: https://instagram.com/samdisha_khunger/
