@@ -1,10 +1,10 @@
 ---
 layout: post
 date: 2021-12-16 07:20:00
-image: https://user-images.githubusercontent.com/84928666/146376743-9cdbc01b-897e-44e8-9d6c-5aa31ad311a6.jpg
+image: https://user-images.githubusercontent.com/84928666/146385614-54fe110d-76d2-40b2-8222-1fb50d0880f4.jpg
 toc: enabled
-title:  "Watch the donut, not the hole."
-description: "In this article Samdisha Khunger explains how we should perceive life and the challenges it brings to us, through the proverb \"Focus on the donut not the hole\""
+title:  "Watch the donut, not the hole!"
+description: "In this article Samdisha Khunger explains how we should perceive life and the challenges it brings to us, through the proverb \"Watch the donut not the hole\""
 excerpt: "In this article, I explain how we should perceive life and the various challenges it brings to us."
 author: samdisha
 categories: [ Life Lessons, Motivation ]
@@ -16,7 +16,7 @@ I am not sure about you, but yeah we were made to learn these proverbs(which tbh
 
 In this article, I am gonna talk about one such proverb:
 
-> "**Focus on the donut, not the hole.**"
+> "**Watch the donut, not the hole.**"
 
 ## Meaning
 
@@ -26,7 +26,7 @@ A donut is actually complete in itself, but if it starts to focus on the emptine
 
 We all are unique. We all have flaws and nobody is perfect in this world. But if we continue to focus on the flaws and feel sad and distressed about it, we might end up not liking or even dispising ourselves. 
 
-And the above mentioned saying reminds us to focus on the donut, i.e., to focus on our strengths, and to embrace our shortcomings.
+And the above mentioned saying reminds us to watch the donut, i.e., to focus on our strengths, and to embrace our shortcomings.
 
 ## What I learnt from this 
 
