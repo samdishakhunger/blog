@@ -5,13 +5,13 @@
         justify-content: center;
         align-items: center;
     }
-    .gradient-border, .blog-subscription-form-wrapper {
+    .gradient-border, .button-gradient-border, .blog-subscription-form-wrapper {
       --borderWidth: 5px;
       background: #1D1F20;
       position: absolute;
       border-radius: 10px;
     }
-    .gradient-border:after, .blog-subscription-form-wrapper:after {
+    .gradient-border:after, .blog-subscription-form-wrapper:after, .button-gradient-border:after {
       content: '';
       position: absolute;
       top: calc(-1 * var(--borderWidth));
@@ -24,8 +24,6 @@
       animation: animatedgradient 3s ease alternate infinite;
       background-size: 300% 300%;
     }
-    
-    
     @keyframes animatedgradient {
         0% {
             background-position: 0% 50%;

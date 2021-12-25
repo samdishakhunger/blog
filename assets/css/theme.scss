@@ -462,7 +462,13 @@ img, img:hover {
         padding:2px;
     }
 }
-.article-post {    
+.article-post {
+    .image {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+    }
     font-size:18px;
     p {
         margin-top:30px;
