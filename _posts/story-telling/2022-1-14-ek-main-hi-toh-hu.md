@@ -1,9 +1,10 @@
 ---
 layout: post
-youtube: 8I621OgrAjo
+image: https://user-images.githubusercontent.com/46792249/149535451-69b02b73-e643-47f5-8d25-2837c073dd74.png
 title:  "Ek main hi toh hu apne sath"
 description: "\"Ek main hi toh hu apne sath\" by Samdisha Khunger"
 excerpt: "\"Ek main hi toh hu apne sath\" by Samdisha Khunger"
+youtube: 8I621OgrAjo
 author: samdisha
 categories: [ Story Telling ]
 ---
