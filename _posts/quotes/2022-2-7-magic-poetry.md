@@ -9,19 +9,19 @@ categories: [ Quotes ]
 ---
 
 <center>
-I started believing in magic,</br>
-when suddenly one day</br>
-air whispered in my ears,</br>
-to let go of all the worries.</br>
-That day, the clouds smiled at me</br>
-and gave me strength.</br>
-The sun taught me</br>
-to shine as brightly as I can.</br>
-That day was the day,</br>
-nature healed me</br>
-and since then,</br>
-I confine all my worries</br>
-to these new friends.</br>
-That day was the day magic happened</br>
+I started believing in magic,<br/>
+when suddenly one day<br/>
+air whispered in my ears,<br/>
+to let go of all the worries.<br/>
+That day, the clouds smiled at me<br/>
+and gave me strength.<br/>
+The sun taught me<br/>
+to shine as brightly as I can.<br/>
+That day was the day,<br/>
+nature healed me<br/>
+and since then,<br/>
+I confine all my worries<br/>
+to these new friends.<br/>
+That day was the day magic happened<br/>
 and has been happening since then.
-</center></br>
+</center><br/>
