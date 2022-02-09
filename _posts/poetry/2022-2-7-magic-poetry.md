@@ -5,7 +5,7 @@ title:  ""
 description: "Quotes by Samdisha. Random Thoughts and Quotes on life by Samdisha Khunger."
 excerpt: "I started believing in magic, when suddenly one day..."
 author: samdisha
-categories: [ Quotes ]
+categories: [ Poetry ]
 ---
 
 <center>
