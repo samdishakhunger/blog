@@ -1,6 +1,6 @@
 ---
 layout: post
-image: https://user-images.githubusercontent.com/84928666/154846905-edd3d9f7-41aa-4288-ac98-f0ad7c12bf25.jpg
+image: https://user-images.githubusercontent.com/84928666/154848367-d3bc29ca-efe3-4cad-a347-0fe061202989.jpg
 title:  ""
 description: "Quotes by Samdisha. Random Thoughts and Quotes on life by Samdisha Khunger."
 excerpt: "The sun and flowers in a glamourous delight..."
