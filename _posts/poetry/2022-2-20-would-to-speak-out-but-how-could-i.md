@@ -10,7 +10,7 @@ categories: [ Poetry ]
 
 <center>
 The sun and flowers<br/>
-In a glamourous delight,</br>
-I'd love to speak out</br>
-But how could I?</br>
-</center>
+In a glamourous delight,<br/>
+I'd love to speak out<br/>
+But how could I?<br/>
+</center><br/>
