@@ -9,4 +9,4 @@ categories: [ Quotes ]
 ---
 
 Let's try to blur our lives as well. 
-people tend to focus on your shortcomings in the portrait mode.
+People tend to focus on your shortcomings in the portrait mode.
