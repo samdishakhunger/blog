@@ -59,6 +59,7 @@ adsense: "enabled"
 adsense-data-ad-client: "ca-pub-8114751086331659"
 adsense-data-display-ad-slot: "5514529526"
 adsense-data-infeed-ad-slot: "5514529526"
+adsense-data-multiplex-ad-slot: "8067278815"
 
 # Lazy Images ("enabled" or "disabled")
 lazyimages: "enabled"
