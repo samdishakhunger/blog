@@ -1,0 +1,20 @@
+comments:
+  branch: main
+  moderation: true
+
+  commitMessage: "Add comment from {fields.name}"
+
+  name: "Samdisha's Personal Blog"
+  allowedOrigins: ["samdisha.me", "comments.samdisha.me"]
+
+  format: "yml"
+  filename: "{@id}"
+  path: "_data/comments/{options.slug}"
+
+  allowedFields: ["name", "message", "replying_to_id"]
+  requiredFields: ["name", "message"]
+  generatedFields:
+    date:
+      type: date
+      options:
+        format: "timestamp-seconds"
